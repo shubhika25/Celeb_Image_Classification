@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from PIL import Image
 
-API_URL = "http://127.0.0.1:5000/classify_image"
+API_URL = "https://celeb-image-classification.onrender.com/classify_image"
 
 st.title("Sports Celebrity Image Classifier")
 
